@@ -1,18 +1,18 @@
 {% set name = "hg-evolve" %}
-{% set version = "9.2.2" %}
+{% set version = "9.3.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e6706c120b2eb3de7fdbd6fd6a85798333a40895f337df7bf9397fb4fbcb7221
+  sha256: c7dec608ecca486363bd2e9343a8ae37ea6f3efed574afcfcb9c1fb7e26414cb
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
   host:
