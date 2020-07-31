@@ -5,7 +5,7 @@ Home: https://www.mercurial-scm.org/doc/evolution/
 
 Package license: GPLv2+
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Flexible evolution of Mercurial history.
 
