@@ -5,11 +5,13 @@ Home: https://www.mercurial-scm.org/doc/evolution/
 
 Package license: GPLv2+
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hg-evolve-feedstock/blob/master/LICENSE.txt)
 
 Summary: Flexible evolution of Mercurial history.
 
+Development: https://www.mercurial-scm.org/repo/evolve/
 
+Documentation: https://www.mercurial-scm.org/doc/evolution/
 
 Current build status
 ====================
