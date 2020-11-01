@@ -31,7 +31,7 @@ test:
 
 about:
   home: https://www.mercurial-scm.org/doc/evolution/
-  license: GPLv2+
+  license: GPL-2.0-or-later
   license_file: COPYING
   summary: Flexible evolution of Mercurial history.
   doc_url: https://www.mercurial-scm.org/doc/evolution/
