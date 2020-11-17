@@ -3,7 +3,7 @@ About hg-evolve
 
 Home: https://www.mercurial-scm.org/doc/evolution/
 
-Package license: GPLv2+
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hg-evolve-feedstock/blob/master/LICENSE.txt)
 
