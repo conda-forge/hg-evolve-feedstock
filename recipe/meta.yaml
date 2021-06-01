@@ -1,5 +1,5 @@
 {% set name = "hg-evolve" %}
-{% set version = "10.2.0.post1" %}
+{% set version = "10.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 391aa877a61ed04c58b8d82d465b3771f632bb9b19f22cbf18f0e5a1f42f8d4e
+  sha256: ba819732409d39ddd4ff2fc507dc921408bf30535d2d78313637b29eeac98860
 
 build:
   noarch: python
@@ -16,8 +16,10 @@ build:
 
 requirements:
   host:
+    - python >=3.6
     - pip
   run:
+    - python >=3.6
     - mercurial
 
 test:
