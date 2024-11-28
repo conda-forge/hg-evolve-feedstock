@@ -16,14 +16,16 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - mercurial
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - hgext3rd
     - hgext3rd.evolve
