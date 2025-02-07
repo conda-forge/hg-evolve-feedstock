@@ -1,13 +1,13 @@
 {% set name = "hg-evolve" %}
-{% set version = "11.1.7" %}
+{% set version = "11.1.7.post1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 4147e7e56951fe7e44eb4e4a8bbacb6b41ad7c28bbfa0f0c822281c491ea372a
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: d87435b2e4e93618a230379fe3bd3e2e9fed44cbd4d2f50cd15ab70046fa8b6e
 
 build:
   noarch: python
